@@ -67,12 +67,12 @@ yum update
 
 ## 快速使用示例:
 ``` 	
-bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/veip007/dd/master/InstallNET.sh') -d 8 -v 64 -a
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/qfbm/dd/master/InstallNET.sh') -d 8 -v 64 -a
 ``` 
 
 ## 下载及说明:
 ``` 
-wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/veip007/dd/master/InstallNET.sh' && chmod +x InstallNET.sh
+wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/qfbm/dd/master/InstallNET.sh' && chmod +x InstallNET.sh
 ``` 
 ```
 Usage:
@@ -169,7 +169,7 @@ bash InstallNET.sh -c 6.9 -v 64 -a --mirror 'http://mirror.centos.org/centos'
 ### GD直连获取方法
 1.下载脚本
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/DDWIN/master/gdlink.sh && chmod +x gdlink.sh && ./gdlink.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/qfbm/DDWIN/master/gdlink.sh && chmod +x gdlink.sh && ./gdlink.sh
 ```
 2.使用方法
 ```
